@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Benelee Christmas Co. — festive Christmas trees, decorations, Santa costumes, lights, gifts and bundles. Bring the Magic Home.">
+<meta name="theme-color" content="#07170f">
+<title>Benelee Christmas Co. | Bring the Magic Home.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="snow-layer"></div><div id="toast"></div>
+<header class="header"><a class="logo" href="index.html"><span>✦</span><b>BENELEE</b><small>CHRISTMAS CO.</small></a><button id="menuToggle" class="menu-toggle">☰</button><nav id="nav"><a href="#shop">Shop</a><a href="#bundles">Bundles</a><a href="about.html">About</a><a href="contact.html">Contact</a><button class="cart-button" onclick="openCart()">🛒 <i id="cartCount">0</i></button></nav></header>
+<main>
+<section class="hero"><div class="hero-content reveal"><p class="eyebrow">WELCOME TO BENELEE CHRISTMAS CO.</p><h1>Bring the <em>Magic</em> Home.</h1><p>Christmas trees, sparkling lights, Santa costumes, beautiful décor, gifts and festive bundles — everything you need to make the season unforgettable.</p><div class="hero-buttons"><a class="btn gold" href="#shop">Shop Christmas</a><a class="btn ghost" href="#bundles">Explore Bundles</a></div><div class="hero-pills"><span>🎄 Trees</span><span>🎅 Santa</span><span>✨ Lights</span><span>🎁 Gifts</span></div></div><div class="hero-orbit"><div class="moon">✦</div><div class="hero-tree">🎄</div><div class="ornament o1">🔴</div><div class="ornament o2">🟡</div><div class="ornament o3">⭐</div></div></section>
+<div class="ribbon"><div>✨ BRING THE MAGIC HOME &nbsp; • &nbsp; CHRISTMAS STARTS HERE &nbsp; • &nbsp; FESTIVE FINDS FOR EVERYONE &nbsp; • &nbsp; 🎅</div></div>
+<section class="section reveal"><div class="section-title"><p class="eyebrow">SHOP THE WONDERLAND</p><h2>Everything Christmas, in one place.</h2></div><div class="category-grid" id="categoryGrid"></div></section>
+<section id="shop" class="section shop reveal"><div class="shop-head"><div><p class="eyebrow">THE COLLECTION</p><h2>Find your festive favourites.</h2></div><div class="filters"><input id="search" type="search" placeholder="Search products..."><select id="category"><option value="all">All categories</option></select></div></div><div id="productGrid" class="product-grid"></div></section>
+<section id="bundles" class="section bundles reveal"><div class="section-title"><p class="eyebrow">SAVE WITH FESTIVE SETS</p><h2>Made for magical moments.</h2><p>Ready-made combinations for homes, families, Santa events and businesses.</p></div><div id="bundleGrid" class="bundle-grid"></div></section>
+<section class="section countdown reveal"><div><p class="eyebrow">THE MAGIC IS COMING</p><h2>Christmas countdown</h2><p>Get your festive shopping ready before the big day.</p></div><div class="count-grid"><div><b id="days">00</b><small>Days</small></div><div><b id="hours">00</b><small>Hours</small></div><div><b id="mins">00</b><small>Minutes</small></div><div><b id="secs">00</b><small>Seconds</small></div></div></section>
+<section class="section reveal"><div class="section-title"><p class="eyebrow">WHY BENELEE</p><h2>Christmas should feel magical.</h2></div><div class="why-grid"><article>🎄<h3>One Festive Destination</h3><p>From trees and ornaments to costumes, lights, gifts and party supplies.</p></article><article>🎁<h3>Beautiful Bundles</h3><p>Shop coordinated collections that make decorating faster and easier.</p></article><article>💬<h3>WhatsApp Shopping</h3><p>Ask about any item or send your cart directly to Benelee.</p></article><article>🇿🇦<h3>South African Pricing</h3><p>Prices are shown in South African Rand and can be updated anytime.</p></article></div></section>
+</main>
+<footer class="footer"><div><div class="logo"><span>✦</span><b>BENELEE</b><small>CHRISTMAS CO.</small></div><p>Bring the Magic Home.</p></div><div><h4>Shop</h4><a href="#shop">All Products</a><a href="#bundles">Bundles</a><a href="about.html">About</a></div><div><h4>Help</h4><a href="contact.html">Contact</a><a href="shipping.html">Delivery</a><a href="terms.html">Terms</a></div><div><h4>WhatsApp</h4><p>075 073 2008</p><a class="green-link" href="https://wa.me/27750732008" target="_blank">Chat with Benelee →</a></div><div class="copyright">© 2026 Benelee Christmas Co. All rights reserved.</div></footer>
+<a class="floating-wa" href="https://wa.me/27750732008?text=Hello%20Benelee%20Christmas%20Co.%20%F0%9F%8E%84%20I%27d%20like%20to%20shop%20for%20Christmas%20items." target="_blank">◔</a>
+<div id="cartModal" class="modal"><div class="cart-modal"><button class="close" onclick="closeCart()">×</button><h2>Your Christmas Cart 🎁</h2><div id="cartItems"></div><div class="total"><span>Total</span><b id="cartTotal">R0</b></div><button class="btn gold full" onclick="checkoutWhatsApp()">Order on WhatsApp</button></div></div>
+<script src="script.js"></script>
+</body></html>
